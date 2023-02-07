@@ -1,0 +1,118 @@
+h2{
+    text-align: center;
+    text-decoration: underline;
+    background-image: linear-gradient(to right, rgb(245, 37, 37) ,green ,yellow);
+
+}
+ul{
+    border: 3px solid crimson;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(144, 216, 216);
+    width: 750px;
+    margin-bottom: 10px;
+    padding-left: ;
+}
+.li {
+    margin-left: 250px;
+    padding-left: 20px;
+}
+.container {
+    border: 3px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: rgb(16, 150, 252);
+    height: 120px;
+    justify-content: space-evenly;
+}
+.items {
+    border: 2px solid blue;
+    background-color: rgb(118, 244, 248);
+    border-radius: 10px;
+    width: 400px;
+    height: fit-content;
+    text-align: center;
+}
+h3 {
+    height: 30px;
+    text-align: center;
+    text-decoration: underline;
+    background-image: radial-gradient(circle,yellow 20%,red);
+}
+
+.box-container {
+    border: 3px solid rgb(128, 0, 109);
+    height: 220px;
+    background-image: radial-gradient(rgb(17, 17, 58) ,green);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    margin: 10px 0px;
+}
+.boxs {
+    border: 3px solid red;
+    background-color: yellow;
+    border-radius: 15px;
+    height: 100px;
+    margin: auto;
+    text-decoration: underline;
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    color: crimson;
+    font-weight: 600;
+}
+.gridcontainer {
+    border: 1px solid gray;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: white;
+    gap: 10px;
+}
+.griditem1 {
+    background-color: crimson;
+    height: 40px;
+    grid-column-end: span 4;
+    text-align: center;
+    font-weight: 600;
+    word-spacing: 4px;
+}
+.griditem2 {
+    background-color: rgb(88, 236, 88);
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+}
+.griditem3 {
+    background-color: rgb(14, 166, 216);
+    font-size: larger;
+    font-weight: 700;
+}
+.griditem4 {
+    background-color: blue;
+    text-align: left;
+    padding-right: 60px;
+}
+.griditem5 {
+    background-color: black;
+    grid-column-start: 4;
+    grid-row-end: span 2;
+}
+.griditem6 {
+    background-color: orange;
+    grid-column-end: span 3;
+    font-weight: bolder;
+    font-size: large;
+    padding-bottom: 45px;
+}
+.griditem7 {
+    background-color: rgb(109, 207, 240);
+    color: black;
+    grid-column-end: span 4;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+}
